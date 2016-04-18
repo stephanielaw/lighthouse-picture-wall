@@ -1,24 +1,62 @@
-body {
-  font-family: Verdana;
-  font-size: 1.5em; }
+#team-members h2 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold; 
+  color: #17a3dd;}
+
+.name {
+  font-family: 'Montserrat', sans-serif;
+}
 
 #team-members {
-  clear: both; }
+  clear: both; 
+  max-width: 60%;
+  text-align: center;
+  margin: auto;
+  }
 
 #team-members .member {
-  float: left;
   /*border: 1px solid gray;*/
   margin: 10px;
-  padding: 6px; }
+  padding: 6px; 
+  display: inline-block;
+  }
 
 #team-members .member img {
   width: 200px;
-  height: 200px; }
+  height: 200px;
+  border:6px solid #17a3dd; 
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+  -moz-filter: grayscale(1);
+  -o-filter: grayscale(1);
+  -ms-filter: grayscale(1);
+}
+
+#team-members .member img:hover {
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+  -moz-filter: grayscale(0);
+  -o-filter: grayscale(0);
+  -ms-filter: grayscale(0);
+-moz-transform:scale(2); 
+-webkit-transform:scale(2);
+-o-transform:scale(2);
+-moz-transition:-moz-transform 0.5s ease-in; 
+-webkit-transition:-webkit-transform 0.5s ease-in; 
+-o-transition:-o-transform 0.5s ease-in;
+}
 
 #team-members .member div.name {
-  text-align: center; }
+  text-align: center; 
+}
 
-body h1 {
-  color: #FF0000; }
+hr {
+  border: 5px solid #ff5050;
+}
 
 /*# sourceMappingURL=style.css.map */
+
+
+
